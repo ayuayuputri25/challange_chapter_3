@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Play Now</title>
+</head>
+<body>
+  <!--CSS ONLY-->
+    <style>
+      body {
+          background-color: rgb(198, 134, 78);
+        }
+        #VS{
+          font-size: 100px
+        }
+        
+    </style>
+        
+        <section class="container-fluid"> 
+          <div class="row p-4">
+            <div class="col-1 fs-1 h1"> 
+              <a href="#" style="color:white;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="35" fill="currentColor" class="bi bi-caret-left" viewBox="0 0 16 16">
+                  <path d="M10 12.796V3.204L4.519 8 10 12.796zm-.659.753-5.48-4.796a1 1 0 0 1 0-1.506l5.48-4.796A1 1 0 0 1 11 3.204v9.592a1 1 0 0 1-1.659.753z"/>
+                </svg> 
+              </a>
+            </div>
+              <div class="col-2 fs-1 h1">
+                <img src="assets ch.4/icon/logo 1.png">
+            </div>
+            <div class="col-9 fs-1 h1">
+              <h1>ROCK PAPPER SCISSORS</h1>   
+            </div>
+            <div class="row">
+              <div class="col-5 d-flex flex-column align-items-lg-center">
+                <span> Player 1 </span>
+                <img width="200" height="200" class="p-4" onClick="suit(0)" id="Batu" src="./assets ch.4/image/batu.png"/>
+                <img width="200" height="200" class="p-4" onClick="suit(1)" id="Kertas" src="./assets ch.4/image/kertas.png"/>
+                <img width="200" height="200" class="p-4" onClick="suit(2)" id="Gunting"src="./assets ch.4/image/gunting.png"/>
+              </div>
+              <div class="col-2 d-flex flex-column align-items-lg-center justify-content-center">
+                <div id="VS">
+                    <p class="lawan">
+                      VS
+                    </p>   
+                </div> 
+              </div>
+                <div class="col-5 d-flex flex-column align-items-lg-center com-choice"> 
+                  <span> COM </span>
+                  <div class="com-choice">
+                    <div class="choice">
+                      <img width="200" height="200" class="p-4" src="./assets ch.4/image/batu.png"/>
+                    </div>
+                    <div class="choice">
+                      <img width="200" height="200" class="p-4" src="./assets ch.4/image/kertas.png"/>
+                    </div>
+                    <div class="choice">
+                      <img width="200" height="200" class="p-4" src="./assets ch.4/image/gunting.png"/>
+                    </div>
+                  </div> 
+                 </div> 
+            </div>
+            <div class="row">
+              <div class="col-5"> </div>
+              <div class="col-2 d-flex-column align-items-lg-center justify-content-center">
+                <a href="./play now.html"> 
+                  <img width="100" height="100" class="p-4"  src="./assets ch.4/image/refresh.png">
+                </a>    
+              </div>
+              <div class="col-5"></div>
+            </div>
+            <script src="assets ch.4/js/play now.js"></script>
+        </section>          
+</body>
+</html>
